@@ -1,0 +1,134 @@
+.intro {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: baseline;
+    position: relative;
+}
+
+.intro_info_title {
+    font-family: 'Helvetica Neue', sans-serif;
+    color: #fff;
+    font-size: 36px;
+    line-height: 44px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+.intro_info_text {
+    display: flex;
+    flex-direction: row;
+}
+
+.intro_info_text div {
+    position: relative;
+    padding: 0 15px;
+}
+
+.intro_info_text div:first-child {
+    padding-left: 0;
+}
+
+.intro_info_text div:not(:last-child)::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 1px;
+    background-color: #fff;
+}
+
+.intro_info_text div h5 {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    color: rgba(242, 242, 242, 1);
+}
+
+.left_arrow img {
+    width: 28px;
+    height: 28px;
+    cursor: pointer;
+}
+
+.hamburger {
+    display: none;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    cursor: pointer;
+    z-index: 20;
+}
+
+.hamburger img {
+    width: 24px;
+    height: 24px;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50vh;
+    background-color: rgba(0, 0, 0, 0.95);
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    z-index: 100;
+    animation: slideDown 0.3s ease-in-out;
+}
+
+@keyframes slideDown {
+    from {
+        transform: translateY(-100%);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
+
+.modalContent {
+    width: 90%;
+    color: white;
+    text-align: center;
+    margin: auto;
+}
+
+
+.close {
+    position: absolute;
+    top: 25px;
+    right:35px;
+    font-size: 2em;
+    cursor: pointer;
+    z-index: 101;
+}
+
+.close img {
+    width: 24px;
+    height: 24px;
+}
+
+@media screen and (max-width: 768px) {
+    .left_arrow img {
+        width: 20px !important;
+        height: 20px !important;
+    }
+
+    .intro_info_title {
+        font-size: 24px;
+    }
+
+    .intro_info_text div h5 {
+        color: rgba(149, 152, 177, 1);
+        font-size: 16px;
+    }
+
+    .hamburger {
+        display: block;
+    }
+}

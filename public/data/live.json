@@ -1,0 +1,146 @@
+[
+    {
+        "live": [
+            {
+                "apparatus": "floor",
+                "nation": "AZE",
+                "bib": 212,
+                "name": "Amirbekov T.",
+                "scores": {
+                    "D": 5.400,
+                    "E": 8.800,
+                    "P": 0.300
+                },
+                "judgeScores": {
+                    "App": [
+                        12.500,
+                        7
+                    ],
+                    "AA": [
+                        102.360,
+                        4
+                    ],
+                    "Team": [
+                        102.360,
+                        12
+                    ]
+                }
+            },
+            {
+                "apparatus": "pommel",
+                "nation": "RUS",
+                "bib": 132,
+                "name": "Amirbekov T.",
+                "status": "Wait"
+            },
+            {
+                "apparatus": "rings",
+                "nation": "TUR",
+                "bib": 624,
+                "name": "Terim F.",
+                "scores": {
+                    "D": 5.400,
+                    "E": 8.800,
+                    "P": 0.300
+                },
+                "judgeScores": {
+                    "App": [
+                        12.500,
+                        7
+                    ],
+                    "AA": [
+                        102.360,
+                        4
+                    ],
+                    "Team": [
+                        102.360,
+                        12
+                    ]
+                }
+            },
+            {
+                "apparatus": "vault",
+                "nation": "FRA",
+                "bib": 624,
+                "name": "Terim F.",
+                "status": "Go"
+            },
+            {
+                "apparatus": "parallel",
+                "nation": "ISR",
+                "bib": 401,
+                "name": "Wiltord T.",
+                "scores": {
+                    "D": 5.400,
+                    "E": 8.800,
+                    "P": 0.300
+                },
+                "judgeScores": {
+                    "App": [
+                        12.500,
+                        7
+                    ],
+                    "AA": [
+                        102.360,
+                        4
+                    ],
+                    "Team": [
+                        102.360,
+                        12
+                    ]
+                }
+            },
+            {
+                "apparatus": "highbar",
+                "nation": "GER",
+                "bib": 102,
+                "name": "Bakaev J.",
+                "scores": {
+                    "D": 5.400,
+                    "E": 8.800,
+                    "P": 0.300
+                },
+                "judgeScores": {
+                    "App": [
+                        12.500,
+                        7
+                    ],
+                    "AA": [
+                        102.360,
+                        4
+                    ],
+                    "Team": [
+                        102.360,
+                        12
+                    ]
+                }
+            },
+            {
+                "inquiry": true,
+                "apparatus": "highbar",
+                "nation": "GER",
+                "bib": 102,
+                "name": "Bakaev J.",
+                "scores": {
+                    "D": 5.400,
+                    "E": 8.800,
+                    "P": 0.300
+                },
+                "judgeScores": {
+                    "App": [
+                        12.500,
+                        7
+                    ],
+                    "AA": [
+                        102.360,
+                        4
+                    ],
+                    "Team": [
+                        102.360,
+                        12
+                    ]
+                }
+            }
+        ]
+    }
+]

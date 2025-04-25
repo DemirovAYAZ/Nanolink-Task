@@ -1,0 +1,276 @@
+[
+    {
+        "results": [
+            {
+                "rank": 1,
+                "nation": "RUS",
+                "bib": 212,
+                "name": "Bonartsev Aleksandr",
+                "category": "MAG",
+                "stage": "Final",
+                "ageGroup": "Seniors",
+                "apparatus": "Floor",
+                "performances": [
+                    {
+                        "scores": {
+                            "D": 43.833,
+                            "E": 43.833,
+                            "P": 43.833
+                        },
+                        "total": 102.256
+                    },
+                    {
+                        "scores": {
+                            "D": 43.833,
+                            "E": 43.833,
+                            "P": 43.833
+                        },
+                        "total": 102.256
+                    }
+                ],
+                "final": {
+                    "total": 102.256
+                },
+                "judgeScores": {
+                    "App": [
+                        12.500,
+                        7
+                    ],
+                    "AA": [
+                        102.360,
+                        4
+                    ],
+                    "Team": [
+                        102.360,
+                        12
+                    ]
+                }
+            },
+            {
+                "rank": 2,
+                "nation": "EST",
+                "bib": 100,
+                "name": "Bonartsev Aleksandra",
+                "category": "WAG",
+                "stage": "Qualification",
+                "ageGroup": "Juniors",
+                "apparatus": "Floor",
+                "performances": [
+                    {
+                        "scores": {
+                            "D": 43.833,
+                            "E": 43.833,
+                            "P": 43.833
+                        },
+                        "total": 102.256
+                    },
+                    {
+                        "scores": {
+                            "D": 43.833,
+                            "E": 43.833,
+                            "P": 43.833
+                        },
+                        "total": 102.256
+                    }
+                ],
+                "final": {
+                    "total": 102.256
+                },
+                "judgeScores": {
+                    "App": [
+                        12.500,
+                        7
+                    ],
+                    "AA": [
+                        102.360,
+                        4
+                    ],
+                    "Team": [
+                        102.360,
+                        12
+                    ]
+                }
+            },
+            {
+                "rank": 3,
+                "nation": "AZE",
+                "bib": 234,
+                "name": "Kazimirova Amina",
+                "category": "WAG",
+                "stage": "Qualification",
+                "ageGroup": "Seniors",
+                "apparatus": "Rings",
+                "performances": [
+                    {
+                        "scores": {
+                            "D": 43.833,
+                            "E": 43.833,
+                            "P": 43.833
+                        },
+                        "total": 102.256
+                    },
+                    {
+                        "scores": {
+                            "D": 43.833,
+                            "E": 43.833,
+                            "P": 43.833
+                        },
+                        "total": 102.256
+                    }
+                ],
+                "final": {
+                    "total": 102.256
+                },
+                "judgeScores": {
+                    "App": [
+                        12.500,
+                        7
+                    ],
+                    "AA": [
+                        102.360,
+                        4
+                    ],
+                    "Team": [
+                        102.360,
+                        12
+                    ]
+                }
+            },
+            {
+                "rank": 4,
+                "nation": "RUS",
+                "bib": 320,
+                "name": "Kozlova Anastasia",
+                "category": "WAG",
+                "stage": "Qualification",
+                "ageGroup": "Seniors",
+                "apparatus": "Highbar",
+                "performances": [
+                    {
+                        "scores": {
+                            "D": 43.833,
+                            "E": 43.833,
+                            "P": 43.833
+                        },
+                        "total": 102.256
+                    },
+                    {
+                        "scores": {
+                            "D": 43.833,
+                            "E": 43.833,
+                            "P": 43.833
+                        },
+                        "total": 102.256
+                    }
+                ],
+                "final": {
+                    "total": 102.256
+                },
+                "judgeScores": {
+                    "App": [
+                        12.500,
+                        7
+                    ],
+                    "AA": [
+                        102.360,
+                        4
+                    ],
+                    "Team": [
+                        102.360,
+                        12
+                    ]
+                }
+            },
+            {
+                "rank": 5,
+                "nation": "ISR",
+                "bib": 345,
+                "name": "Kozlova Anastasia",
+                "category": "MAG",
+                "stage": "Qualification",
+                "ageGroup": "Juniors",
+                "apparatus": "Vault",
+                "performances": [
+                    {
+                        "scores": {
+                            "D": 43.833,
+                            "E": 43.833,
+                            "P": 43.833
+                        },
+                        "total": 102.256
+                    },
+                    {
+                        "scores": {
+                            "D": 43.833,
+                            "E": 43.833,
+                            "P": 43.833
+                        },
+                        "total": 102.256
+                    }
+                ],
+                "final": {
+                    "total": 102.256
+                },
+                "judgeScores": {
+                    "App": [
+                        12.500,
+                        7
+                    ],
+                    "AA": [
+                        102.360,
+                        4
+                    ],
+                    "Team": [
+                        102.360,
+                        12
+                    ]
+                }
+            },
+            {
+                "rank": 6,
+                "nation": "GER",
+                "bib": 145,
+                "name": "Bonartsev Aleksandra",
+                "category": "WAG",
+                "stage": "Qualification",
+                "ageGroup": "Juniors",
+                "apparatus": "Floor",
+                "performances": [
+                    {
+                        "scores": {
+                            "D": 43.833,
+                            "E": 43.833,
+                            "P": 43.833
+                        },
+                        "total": 102.256
+                    },
+                    {
+                        "scores": {
+                            "D": 43.833,
+                            "E": 43.833,
+                            "P": 43.833
+                        },
+                        "total": 102.256
+                    }
+                ],
+                "final": {
+                    "total": 102.256
+                },
+                "judgeScores": {
+                    "App": [
+                        12.500,
+                        7
+                    ],
+                    "AA": [
+                        102.360,
+                        4
+                    ],
+                    "Team": [
+                        102.360,
+                        12
+                    ]
+                }
+            }
+        ]
+    }
+]

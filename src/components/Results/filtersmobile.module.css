@@ -1,0 +1,125 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+}
+
+.topBar {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+}
+
+.filterToggleBtn {
+    display: flex;
+    align-items: center;
+    background-color: #1a1635;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.selectedFilters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 16px;
+}
+
+.selectedFilterTag {
+    background-color: #2196f3;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 20px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.filterPanel {
+    background-color: #121027;
+    padding: 20px;
+    border-radius: 12px;
+    animation: fadeIn 0.3s ease;
+}
+
+.cancel{
+    cursor: pointer;
+    
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.filterGroup {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.filterGroupBox {
+    display: flex;
+    border: 1px solid rgba(26, 22, 53, 1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.filterBtn {
+    background-color: transparent;
+    border: none;
+    color: #ffffffcc;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.active {
+    background-color: rgba(26, 22, 53, 1);
+    color: white;
+    border-radius: 8px;
+}
+
+.apparatusContainer {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.iconWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.2s ease;
+}
+
+.iconWrapper:hover .icon {
+    transform: scale(1.1);
+}
+
+.label {
+    color: white;
+    margin-top: 6px;
+    font-size: 12px;
+}
