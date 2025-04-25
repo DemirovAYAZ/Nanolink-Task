@@ -4,6 +4,8 @@ import Tabs from './components/Tabs/Tabs'
 
 function App() {
 
+  //Note! When you reduce the width of the desktop screen, you can scroll the tabs with the arrows
+
   return (
     <div className='container'>
       <Intro />

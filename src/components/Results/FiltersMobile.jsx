@@ -7,7 +7,7 @@ import rings from "/assets/rings.svg";
 import parallel from "/assets/parallel.svg";
 import highbar from "/assets/highbar.svg";
 import { LuFilter } from "react-icons/lu";
-import { MdCancel } from "react-icons/md";
+import { IoClose } from "react-icons/io5";
 
 const apparatusIcons = [
   { name: "Floor", src: floor },
@@ -77,7 +77,7 @@ export default function FiltersMobile({
 
             return (
               <div key={idx} className={styles.selectedFilterTag} onClick={handleRemove}>
-                <MdCancel className={styles.cancel} /> {filter}
+                <IoClose className={styles.cancel} /> {filter}
               </div>
             );
           })}

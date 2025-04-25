@@ -9,6 +9,7 @@ const Tabs = () => {
     const [activeIndex, setActiveIndex] = useState(0);
     const indicatorRef = useRef(null);
     const tabsRef = useRef([]);
+    const containerRef = useRef(null);
     const liveItems = liveData[0]?.live || [];
     const resultsItems = resultsData[0]?.results || [];
 
@@ -24,9 +25,19 @@ const Tabs = () => {
         }
     }, [activeIndex]);
 
+    const scrollLeft = () => {
+        containerRef.current.scrollBy({ left: -150, behavior: "smooth" });
+    };
+
+    const scrollRight = () => {
+        containerRef.current.scrollBy({ left: 150, behavior: "smooth" });
+    };
+
     return (
         <div className={styles["tabs-wrapper"]}>
-            <div className={styles["tabs-container"]}>
+            <button className={styles.arrowLeft} onClick={scrollLeft}>◀</button>
+
+            <div className={styles["tabs-container"]} ref={containerRef}>
                 <div className={styles.tabs}>
                     {tabItems.map((item, index) => (
                         <button
@@ -44,8 +55,10 @@ const Tabs = () => {
                 </div>
             </div>
 
+            <button className={styles.arrowRight} onClick={scrollRight}>▶</button>
+
             {activeIndex === 0 && <LiveTabWrapper items={liveItems} />}
-            {activeIndex === 3 && <ResultsTabWrapper items={resultsItems} />} 
+            {activeIndex === 3 && <ResultsTabWrapper items={resultsItems} />}
         </div>
     );
 };

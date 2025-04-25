@@ -16,6 +16,10 @@
     transition: all 0.3s ease;
 }
 
+.noResults{
+    color: #fff;
+}
+
 .cardExpanded {
     border-bottom-left-radius: 0;
     border-bottom-right-radius: 0;

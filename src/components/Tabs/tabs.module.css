@@ -1,26 +1,25 @@
 .tabs-wrapper {
   padding-top: 50px;
   width: 100%;
-  white-space: nowrap;
-  scrollbar-width: none;
-  -ms-overflow-style: none;
   position: relative;
-  overflow: auto;
-}
-
-.tabs-wrapper::-webkit-scrollbar {
-  display: none;
+  overflow: hidden;
 }
 
 .tabs-container {
-  overflow-x: auto;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.tabs-container::-webkit-scrollbar {
+  display: none;
 }
 
 .tabs {
   display: inline-flex;
   min-width: 100%;
   justify-content: space-between;
-  overflow-x: none;
   position: relative;
 }
 
@@ -69,7 +68,6 @@
   }
 }
 
-
 .tab-indicator-track {
   position: absolute;
   bottom: 0;
@@ -91,11 +89,43 @@
   z-index: 1;
 }
 
+.arrowLeft,
+.arrowRight {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 50%;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.arrowLeft {
+  left: 5px;
+}
+
+.arrowRight {
+  right: 5px;
+}
+
+.arrowLeft:hover,
+.arrowRight:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
 @media screen and (max-width: 768px) {
   .tab {
     display: block;
     width: 100%;
     font-size: 16px;
     font-weight: 300;
+  }
+
+  .arrowLeft,
+  .arrowRight {
+    display: none;
   }
 }
